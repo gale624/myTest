@@ -11,7 +11,10 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        for (int i = 1; i < 10; i++) {
+            System.out.println("Hello World!");
+        }
+        return "hahaha";
     }
 
     public static void main(String[] args) throws Exception {
